@@ -1,0 +1,25 @@
+{
+    "name": "davidkalosi/dto-generator-bundle",
+    "type": "symfony-bundle",
+    "description": "Data Transfer Object (DTO) generator for Symfony users",
+    "keywords": ["dto", "generator", "codegenerator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Kalosi",
+            "email": "david.kalosi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "jms/cg": "dev-master",
+        "symfony/console": "2.4.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {"GeckoLibs\\DTOGeneratorBundle": ""}
+    },
+    "minimum-stability": "dev",
+    "target-dir": "GeckoLibs/DTOGeneratorBundle"
+}
