@@ -12,8 +12,8 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "jms/cg": "1.1.*@dev",
-        "symfony/console": ">=2.3"
+        "symfony/framework-bundle": "2.*",
+        "jms/cg": "1.*"
     },
     "require-dev": {
     },
