@@ -301,7 +301,7 @@ EOT
                 throw new \InvalidArgumentException('Properties must be entered in the format type:field');
             }
 
-            list($type, $field) = explode(':', $value);
+            list($field, $type) = explode(':', $value);
             $fields[$field] = $type;
         }
 
